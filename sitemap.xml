@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2019-12-01T06:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/cloud/</loc>
+    <lastmod>2019-12-01T06:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/cloud/</loc>
+    <lastmod>2019-12-01T06:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/cloud-native/</loc>
+    <lastmod>2019-12-01T06:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/devops/</loc>
+    <lastmod>2019-12-01T06:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2019-12-01T06:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2019/12/i-don-t-believe-in-kubernetes/</loc>
+    <lastmod>2019-12-01T06:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/kubernetes/</loc>
+    <lastmod>2019-12-01T06:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2019-12-01T06:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2019-12-01T06:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/tech/</loc>
+    <lastmod>2019-12-01T06:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/networking/</loc>
+    <lastmod>2019-10-01T06:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/networking/</loc>
+    <lastmod>2019-10-01T06:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/open-source/</loc>
+    <lastmod>2019-10-01T06:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/sdx/</loc>
+    <lastmod>2019-10-01T06:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2019/10/the-future-of-networking-is-software/</loc>
+    <lastmod>2019-10-01T06:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/public/</loc>
+    <lastmod>2019-04-22T06:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/remembering/</loc>
+    <lastmod>2019-04-22T06:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/sri-lanka/</loc>
+    <lastmod>2019-04-22T06:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/terror/</loc>
+    <lastmod>2019-04-22T06:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/united/</loc>
+    <lastmod>2019-04-22T06:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/we/</loc>
+    <lastmod>2019-04-22T06:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2019/04/we-are-on-our-own/</loc>
+    <lastmod>2019-04-22T06:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2019/04/i-thought-i-knew/</loc>
+    <lastmod>2019-04-20T06:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/me/</loc>
+    <lastmod>2019-04-20T06:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/parenting/</loc>
+    <lastmod>2019-04-20T06:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/personal/</loc>
+    <lastmod>2019-04-20T06:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/book/</loc>
+    <lastmod>2019-04-14T06:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/poetry/</loc>
+    <lastmod>2019-04-14T06:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/update/</loc>
+    <lastmod>2019-04-14T06:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2019/04/whatever-happened-to-that-book/</loc>
+    <lastmod>2019-04-14T06:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/writing/</loc>
+    <lastmod>2019-04-14T06:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/infosec/</loc>
+    <lastmod>2019-01-23T06:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/offline/</loc>
+    <lastmod>2019-01-23T06:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2019/01/mind-the-air-gap/</loc>
+    <lastmod>2019-01-23T06:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/online/</loc>
+    <lastmod>2019-01-14T06:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2019/01/paying-for-the-free-services/</loc>
+    <lastmod>2019-01-14T06:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/privacy/</loc>
+    <lastmod>2019-01-14T06:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/art/</loc>
+    <lastmod>2019-01-07T06:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2019/01/what-is-the-meaning-of-that-poem/</loc>
+    <lastmod>2019-01-07T06:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/blog/</loc>
+    <lastmod>2019-01-01T06:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2019/01/here-we-go/</loc>
+    <lastmod>2019-01-01T06:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/series/</loc>
+  </url>
+  
+</urlset>

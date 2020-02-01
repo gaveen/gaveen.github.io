@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="">
+<meta name="description" content="The year is 2019. People are connecting all sorts of things to the internet. I am sort of surprised I even have to mention this but—for the most part, we are not really thinking this through.
+For the last five years, I have been working with a group of companies—with whom I have worked before—to get a data center business up and running. Our team did not forget that everything is on the cloud now, we just remembered clouds also need to be made of something—Linux servers, mostly." />
+<meta name="keywords" content="homepage, blog, devops, linux, oss, programming" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="/2019/01/mind-the-air-gap/" />
+
+
+    <title>
+        
+            This one weird trick can increase your information security—Mind the (air) gap :: Gaveen Prabhasara  — SysAdmin, Programming Language Tourist, and Petty Dabbler of the Written Word
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="/main.min.5dcefbf8102eb536dd3e2de53ffebfa58599ab2435c241a0db81728a5e015f2e.css">
+
+
+
+
+<meta itemprop="name" content="This one weird trick can increase your information security—Mind the (air) gap">
+<meta itemprop="description" content="The year is 2019. People are connecting all sorts of things to the internet. I am sort of surprised I even have to mention this but—for the most part, we are not really thinking this through.
+For the last five years, I have been working with a group of companies—with whom I have worked before—to get a data center business up and running. Our team did not forget that everything is on the cloud now, we just remembered clouds also need to be made of something—Linux servers, mostly.">
+<meta itemprop="datePublished" content="2019-01-23T06:00:00&#43;05:30" />
+<meta itemprop="dateModified" content="2019-01-23T06:00:00&#43;05:30" />
+<meta itemprop="wordCount" content="706">
+<meta itemprop="image" content="/"/>
+
+
+
+<meta itemprop="keywords" content="infosec,offline," /><meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="/"/>
+
+<meta name="twitter:title" content="This one weird trick can increase your information security—Mind the (air) gap"/>
+<meta name="twitter:description" content="The year is 2019. People are connecting all sorts of things to the internet. I am sort of surprised I even have to mention this but—for the most part, we are not really thinking this through.
+For the last five years, I have been working with a group of companies—with whom I have worked before—to get a data center business up and running. Our team did not forget that everything is on the cloud now, we just remembered clouds also need to be made of something—Linux servers, mostly."/>
+
+
+
+    <meta property="article:section" content="Public" />
+
+
+
+    <meta property="article:published_time" content="2019-01-23 06:00:00 &#43;0530 &#43;0530" />
+
+
+
+
+
+
+
+
+    </head>
+
+    <body class="">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">gaveen</span>
+            <span class="logo__cursor" style="background-color:#0099cc"></span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="/posts">Blog</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>4 minutes
+
+            
+
+            </p>
+        </div>
+
+        <article>
+            <h1 class="post-title">
+                <a href="/2019/01/mind-the-air-gap/">This one weird trick can increase your information security—Mind the (air) gap</a>
+            </h1>
+
+            
+
+            <div class="post-content">
+                <p>The year is 2019. People are connecting all sorts of things to the internet. I am sort of surprised I even have to mention this but—for the most part, we are not really thinking this through.</p>
+<p>For the last five years, I have been working with a group of companies—with whom I have worked before—to get a data center business up and running. Our team did not forget that everything is on the cloud now, we just remembered clouds also need to be made of something—Linux servers, mostly.</p>
+<p>While this has been ongoing, I have also seen <em>&ldquo;Internet of Things&rdquo; (IoT)</em> go from a mere buzzword to an <a href="https://www.networkworld.com/article/3123672/security/largest-ddos-attack-ever-delivered-by-botnet-of-hijacked-iot-devices.html">internet breaking, botnet making</a> steam roller. Chances are, as you read this, you also have &ldquo;smart&rdquo; devices connected to the internet.</p>
+<p>This is not really news. We have been connecting things to the internet even before <em>Internet of Things</em> became a thing and we started slapping the &ldquo;smart&rdquo; sticker to everything including actual kitchen sinks. But I thought it would have been the obvious sane choice to draw a line at critical infrastructure—at least things that can have an effect on safety and life support.</p>
+<p>I have been known to be wrong before.</p>
+<p>Even to date, some smart home thermostats depend on an internet connection to regulate temperature within a house. I am not sure, at what point the makers of these decided that depending on an internet connection to keep families warm and comfortable was an acceptable system design or an acceptable risk factor.</p>
+<p>As humans, our technology has not been inherently good or bad—like Godzilla. But how we have used it though, have been questionable at best—like Godzilla movies. There are obvious ethical and <a href="http://gaveen.me/paying-for-the-free-services">privacy-related concerns</a> of technology. But those are for other times.</p>
+<hr>
+<p>How this came into my work-life radar was seeing some service providers offer solutions such as remote <a href="https://en.wikipedia.org/wiki/Network_operations_center">Network Operations Center (NOC)</a> facilities, which usually made me uneasy. As long as I held such responsibilities as of an internal auditor or subject-matter expert, my risk assessments of these kind of scenarios almost always came out as unacceptable (and in many cases, unnecessary to begin with) within the given context.</p>
+<p>Coming back to the topic at hand—as part of my work setting up an internet  data center, one of the well-known vendors in the industry pitched us a cloud-based DCIM as a service: a Data Center Infrastructure Management system connected to the cloud. I instinctively flinched at the mention.</p>
+<p>Again, I maintain, there could be scenarios where this makes sense. But let us consider this one. We were building an internet data center, which would house critical IT infrastructure of multiple clients. The DCIM would manage the whole of the facility infrastructure including thermal, fire protection, environmental monitoring, and at least parts of power infrastructure (e.g., UPS systems). Which meant, the vendor was pitching us to connect all of the above systems within our data center facility&rsquo;s critical infrastructure to the internet. There was of course the promise of secure VPNs, communication security, etc. However, they did not have any standardized certifications (e.g., ISO 27001) at that point either. If their marketing was to be believed, multiple data centers in India were already using this or similar services.</p>
+<p>Let that sink in for a bit. In the age of <a href="https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)">unfixable hardware vulnerabilities</a>, <a href="https://en.wikipedia.org/wiki/Heartbleed">critical bugs in ubiquitous software</a>, and mass surveillance, some people who operate critical IT infrastructure are willingly adding more potential attack vectors, increasing information security operations complexity, without any standard indication of service provider security practices, because cloud.</p>
+<p>Even forgetting additional factors, keeping a data center&rsquo;s security tied down is a huge and an increasingly difficult task. Throw the possibility of a bad actor gaining access to the infrastructure management system into the mix—it becomes almost always impossible to justify the risk. This is why data centers (and other critical infrastructure) usually are <a href="https://en.wikipedia.org/wiki/Air_gap_%28networking%29">air-gapped</a>.</p>
+<p>I do not know how further I need to drive this point across. If you have or planning any infrastructure that can use connectivity, assess if it is essential to have the connectivity. Unless it is, even then unless the risks are understood, mitigated, and accepted—perhaps opt not to connect it to the internet. It is that simple.</p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="/tags/infosec">infosec</a></span><span class="tag"><a href="/tags/offline">offline</a></span>
+                </p>
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>706 Words</p>
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2019-01-23 06:00 &#43;0530</p>
+        </div>
+
+        
+            <div class="pagination">
+                <div class="pagination__title">
+                    <span class="pagination__title-h">Read other posts</span>
+                    <hr />
+                </div>
+
+                <div class="pagination__buttons">
+                    
+                        <span class="button previous">
+                            <a href="/2019/04/whatever-happened-to-that-book/">
+                                <span class="button__icon">←</span>
+                                <span class="button__text">Whatever happened to that book?</span>
+                            </a>
+                        </span>
+                    
+
+                    
+                        <span class="button next">
+                            <a href="/2019/01/paying-for-the-free-services/">
+                                <span class="button__text">Paying for the free services</span>
+                                <span class="button__icon">→</span>
+                            </a>
+                        </span>
+                    
+                </div>
+            </div>
+        
+
+        
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2020</span>
+            
+            <span>Gaveen Prabhasara</span>
+            <span> <a href="/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Powered by <a href="http://gohugo.io">Hugo</a></span>
+            <span>Made with &#10084; by <a href="https://github.com/rhazdon">rhazdon</a></span>
+        </div>
+    </div>
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="/bundle.min.2d5469329143160ae2456a69c3c76dc2d0a3b212b46afe291a51bd68650ed6f8697e001dab54f1c272c77ce08092a8c55e5bb4314e0ee334aab4b927ec896638.js" integrity="sha512-LVRpMpFDFgriRWppw8dtwtCjshK0av4pGlG9aGUO1vhpfgAdq1TxwnLHfOCAkqjFXlu0MU4O4zSqtLkn7IlmOA=="></script>
+
+
+
+    </body>
+</html>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>art on Gaveen Prabhasara</title>
+    <link>/tags/art/</link>
+    <description>Recent content in art on Gaveen Prabhasara</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Gaveen Prabhasara</copyright>
+    <lastBuildDate>Mon, 07 Jan 2019 06:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="/tags/art/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What is the meaning of that poem?</title>
+      <link>/2019/01/what-is-the-meaning-of-that-poem/</link>
+      <pubDate>Mon, 07 Jan 2019 06:00:00 +0530</pubDate>
+      
+      <guid>/2019/01/what-is-the-meaning-of-that-poem/</guid>
+      <description>I am a poet, and that much I can say without the uncertainty I allude in the current bio section of this blog which reads &amp;ldquo;SysAdmin, Programming Language Tourist, and Petty Dabbler of the Written Word&amp;rdquo;, or my first post here.
+My work as a poet, or a writer is mainly to write. But, I write mainly for the sheer joy of reading it back, in every way I get to.</description>
+    </item>
+    
+  </channel>
+</rss>

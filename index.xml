@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gaveen Prabhasara</title>
+    <link>/</link>
+    <description>Recent content on Gaveen Prabhasara</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Gaveen Prabhasara</copyright>
+    <lastBuildDate>Sun, 01 Dec 2019 06:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>I don&#39;t believe in Kubernetes</title>
+      <link>/2019/12/i-don-t-believe-in-kubernetes/</link>
+      <pubDate>Sun, 01 Dec 2019 06:00:00 +0530</pubDate>
+      
+      <guid>/2019/12/i-don-t-believe-in-kubernetes/</guid>
+      <description>I have always been a believer in Cloud Computing. Even when big executives of the world were calling it a fad, I believed in the cloud—or its promise. It was not so much an achievement to be had—rather as with to so many other people in tech—it spoke to me from a place of understanding. We may not have called it &amp;ldquo;cloud&amp;rdquo;, but when Amazon opened the gates of their Web Services to everyone, we saw good things we recognized with and we realized it was an opportunity to build things better.</description>
+    </item>
+    
+    <item>
+      <title>The future of networking is software</title>
+      <link>/2019/10/the-future-of-networking-is-software/</link>
+      <pubDate>Tue, 01 Oct 2019 06:00:00 +0530</pubDate>
+      
+      <guid>/2019/10/the-future-of-networking-is-software/</guid>
+      <description>I believe the future of networking is software. To be a little more specific on my thoughts, I believe the future of networking in the data center is software-based. Water is wet, and on that note, thank you for coming to my TED talk. And, quick PS: clouds are also hosted in data centers.
+While what I just mentioned maybe obvious to say—given how pretty much everything has its future in software—you would be surprised at the state of the networking industry if you came to it as an outsider.</description>
+    </item>
+    
+    <item>
+      <title>We are on our own</title>
+      <link>/2019/04/we-are-on-our-own/</link>
+      <pubDate>Mon, 22 Apr 2019 06:00:00 +0530</pubDate>
+      
+      <guid>/2019/04/we-are-on-our-own/</guid>
+      <description>I&amp;rsquo;m early to work, because the roads are mostly empty. That&amp;rsquo;s not because of an extended holiday season. No, that finished last week. People are trying to stay home because of the Easter Sunday Attacks—they are uncertain where to go from here.
+As I type these words away, I&amp;rsquo;m but a walking distance away from Mahawela Gardens, where one gruesome episode of Sunday&amp;rsquo;s events took place. I also hear stories in the background about colleagues who have lost family members.</description>
+    </item>
+    
+    <item>
+      <title>I thought I knew</title>
+      <link>/2019/04/i-thought-i-knew/</link>
+      <pubDate>Sat, 20 Apr 2019 06:00:00 +0530</pubDate>
+      
+      <guid>/2019/04/i-thought-i-knew/</guid>
+      <description>I thought I knew how being a father would be. I have a father, a good one. I understood that much. I have nephews and nieces, and I love them to bits. I understood that much. So when we become pregnant, I thought I had a pretty strong grip on how being a parent felt.
+I knew I wasn&amp;rsquo;t nearly ready as I wanted to be, but I didn&amp;rsquo;t think I had a big gap of understanding on how a father felt about their child.</description>
+    </item>
+    
+    <item>
+      <title>Whatever happened to that book?</title>
+      <link>/2019/04/whatever-happened-to-that-book/</link>
+      <pubDate>Sun, 14 Apr 2019 06:00:00 +0530</pubDate>
+      
+      <guid>/2019/04/whatever-happened-to-that-book/</guid>
+      <description>Today is the Sinhala (and Tamil) New Year day. As I sit in front of the computer to partake in my trade—as one does according to tradition—I want to try an answer a certain question.
+Whatever happened to that book you were writing?—is not a question I have been asked too many times. You see, I am not a well-known writer at all—but I digress. I have in fact, been working for a while on at least two, maybe two and a half books—none of which are actually ready yet.</description>
+    </item>
+    
+    <item>
+      <title>This one weird trick can increase your information security—Mind the (air) gap</title>
+      <link>/2019/01/mind-the-air-gap/</link>
+      <pubDate>Wed, 23 Jan 2019 06:00:00 +0530</pubDate>
+      
+      <guid>/2019/01/mind-the-air-gap/</guid>
+      <description>The year is 2019. People are connecting all sorts of things to the internet. I am sort of surprised I even have to mention this but—for the most part, we are not really thinking this through.
+For the last five years, I have been working with a group of companies—with whom I have worked before—to get a data center business up and running. Our team did not forget that everything is on the cloud now, we just remembered clouds also need to be made of something—Linux servers, mostly.</description>
+    </item>
+    
+    <item>
+      <title>Paying for the free services</title>
+      <link>/2019/01/paying-for-the-free-services/</link>
+      <pubDate>Mon, 14 Jan 2019 06:00:00 +0530</pubDate>
+      
+      <guid>/2019/01/paying-for-the-free-services/</guid>
+      <description>You may be already tired of hearing this, or at the least, you must have heard a variation of this—&amp;ldquo;if something is free, you may be the price paid&amp;rdquo;. While I think this is cynical, I cannot disagree that it holds up true in many things we happily consume today.
+Like it or not, we are in an era of transition—specially when it comes to the way we think about privacy.</description>
+    </item>
+    
+    <item>
+      <title>What is the meaning of that poem?</title>
+      <link>/2019/01/what-is-the-meaning-of-that-poem/</link>
+      <pubDate>Mon, 07 Jan 2019 06:00:00 +0530</pubDate>
+      
+      <guid>/2019/01/what-is-the-meaning-of-that-poem/</guid>
+      <description>I am a poet, and that much I can say without the uncertainty I allude in the current bio section of this blog which reads &amp;ldquo;SysAdmin, Programming Language Tourist, and Petty Dabbler of the Written Word&amp;rdquo;, or my first post here.
+My work as a poet, or a writer is mainly to write. But, I write mainly for the sheer joy of reading it back, in every way I get to.</description>
+    </item>
+    
+    <item>
+      <title>Here we go</title>
+      <link>/2019/01/here-we-go/</link>
+      <pubDate>Tue, 01 Jan 2019 06:00:00 +0530</pubDate>
+      
+      <guid>/2019/01/here-we-go/</guid>
+      <description>Where should I begin? Is this on?
+Hello there! Welcome, fellow human being, and of course, any other that is reading. This is presumably Gaveen, and—despite all my efforts—you have found my blog. If this is the choice of Steins;Gate, who am I to complain.
+There are no grand introductions here, nor any road maps to unveil—just the simple realization to be had that I may have moved my blog yet another time.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Gaveen Prabhasara</copyright>
-    <lastBuildDate>Sat, 20 Apr 2019 06:00:00 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jan 2020 06:00:00 +0530</lastBuildDate>
     
 	<atom:link href="/tags/me/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Fictional/Anticipated Questions (FAQ)</title>
+      <link>/about/</link>
+      <pubDate>Wed, 01 Jan 2020 06:00:00 +0530</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Obviously, not many people contact me asking things about this blog. So, I&amp;rsquo;m placing these fabricated questions here to tell you a little more about a few things.
+ Are there more navigation options? Yes. Currently, site content is organized into main categories while each post may have tags.
+ Categories Tags   Can I subscribe only to a section of this blog? Yes. Each of the categories and tags will have its own feed.</description>
+    </item>
     
     <item>
       <title>I thought I knew</title>

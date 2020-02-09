@@ -3,12 +3,57 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/tags/blog/</loc>
-    <lastmod>2020-01-01T06:00:00+05:30</lastmod>
+    <loc>/tags/art/</loc>
+    <lastmod>2020-01-12T22:00:00+05:30</lastmod>
   </url>
   
   <url>
     <loc>/categories/</loc>
+    <lastmod>2020-01-12T22:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2020/01/curtain-call-jayalath-manorathna/</loc>
+    <lastmod>2020-01-12T22:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-01-12T22:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/me/</loc>
+    <lastmod>2020-01-12T22:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2020-01-12T22:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/remembering/</loc>
+    <lastmod>2020-01-12T22:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/remembering/</loc>
+    <lastmod>2020-01-12T22:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/sri-lanka/</loc>
+    <lastmod>2020-01-12T22:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-01-12T22:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/blog/</loc>
     <lastmod>2020-01-01T06:00:00+05:30</lastmod>
   </url>
   
@@ -18,22 +63,7 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2020-01-01T06:00:00+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/me/</loc>
-    <lastmod>2020-01-01T06:00:00+05:30</lastmod>
-  </url>
-  
-  <url>
     <loc>/categories/personal/</loc>
-    <lastmod>2020-01-01T06:00:00+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2020-01-01T06:00:00+05:30</lastmod>
   </url>
   
@@ -73,11 +103,6 @@
   </url>
   
   <url>
-    <loc>/posts/</loc>
-    <lastmod>2019-12-01T06:00:00+05:30</lastmod>
-  </url>
-  
-  <url>
     <loc>/categories/tech/</loc>
     <lastmod>2019-12-01T06:00:00+05:30</lastmod>
   </url>
@@ -109,16 +134,6 @@
   
   <url>
     <loc>/categories/public/</loc>
-    <lastmod>2019-04-22T06:00:00+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/remembering/</loc>
-    <lastmod>2019-04-22T06:00:00+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/sri-lanka/</loc>
     <lastmod>2019-04-22T06:00:00+05:30</lastmod>
   </url>
   
@@ -200,11 +215,6 @@
   <url>
     <loc>/tags/privacy/</loc>
     <lastmod>2019-01-14T06:00:00+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/art/</loc>
-    <lastmod>2019-01-07T06:00:00+05:30</lastmod>
   </url>
   
   <url>

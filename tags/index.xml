@@ -7,10 +7,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Gaveen Prabhasara</copyright>
-    <lastBuildDate>Wed, 01 Jan 2020 06:00:00 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jan 2020 22:00:00 +0530</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>art</title>
+      <link>/tags/art/</link>
+      <pubDate>Sun, 12 Jan 2020 22:00:00 +0530</pubDate>
+      
+      <guid>/tags/art/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>me</title>
+      <link>/tags/me/</link>
+      <pubDate>Sun, 12 Jan 2020 22:00:00 +0530</pubDate>
+      
+      <guid>/tags/me/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>remembering</title>
+      <link>/tags/remembering/</link>
+      <pubDate>Sun, 12 Jan 2020 22:00:00 +0530</pubDate>
+      
+      <guid>/tags/remembering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sri lanka</title>
+      <link>/tags/sri-lanka/</link>
+      <pubDate>Sun, 12 Jan 2020 22:00:00 +0530</pubDate>
+      
+      <guid>/tags/sri-lanka/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>blog</title>
@@ -18,15 +54,6 @@
       <pubDate>Wed, 01 Jan 2020 06:00:00 +0530</pubDate>
       
       <guid>/tags/blog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>me</title>
-      <link>/tags/me/</link>
-      <pubDate>Wed, 01 Jan 2020 06:00:00 +0530</pubDate>
-      
-      <guid>/tags/me/</guid>
       <description></description>
     </item>
     
@@ -90,15 +117,6 @@
       <pubDate>Tue, 01 Oct 2019 06:00:00 +0530</pubDate>
       
       <guid>/tags/sdx/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>sri lanka</title>
-      <link>/tags/sri-lanka/</link>
-      <pubDate>Mon, 22 Apr 2019 06:00:00 +0530</pubDate>
-      
-      <guid>/tags/sri-lanka/</guid>
       <description></description>
     </item>
     
@@ -198,15 +216,6 @@
       <pubDate>Mon, 14 Jan 2019 06:00:00 +0530</pubDate>
       
       <guid>/tags/privacy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>art</title>
-      <link>/tags/art/</link>
-      <pubDate>Mon, 07 Jan 2019 06:00:00 +0530</pubDate>
-      
-      <guid>/tags/art/</guid>
       <description></description>
     </item>
     

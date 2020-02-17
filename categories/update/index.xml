@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Gaveen Prabhasara</copyright>
-    <lastBuildDate>Wed, 01 Jan 2020 06:00:00 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 14 Feb 2020 20:00:00 +0530</lastBuildDate>
     
 	<atom:link href="/categories/update/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>My Vim Story</title>
+      <link>/2020/02/my-vim-story/</link>
+      <pubDate>Fri, 14 Feb 2020 20:00:00 +0530</pubDate>
+      
+      <guid>/2020/02/my-vim-story/</guid>
+      <description>If you have worked in a command line at some point, I am sure you can praise the wisdom of learning how to use a text editor. On Unix/Linux command lines, text is king and learning how to manipulate text effectively goes a long way for productivity. If you know how to open a file and edit its content, that enables you to configure your system.
+I have been using Linux for a long time—even on my desktop/laptop system.</description>
+    </item>
     
     <item>
       <title>Fictional/Anticipated Questions (FAQ)</title>

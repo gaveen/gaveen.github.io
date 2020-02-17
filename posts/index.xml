@@ -6,8 +6,38 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>Gaveen Prabhasara</copyright>
-        <lastBuildDate>Sun, 12 Jan 2020 22:00:00 +0530</lastBuildDate>
+        <lastBuildDate>Fri, 14 Feb 2020 20:00:00 +0530</lastBuildDate>
         <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>My Vim Story</title>
+            <link>/2020/02/my-vim-story/</link>
+            <pubDate>Fri, 14 Feb 2020 20:00:00 +0530</pubDate>
+            
+            <guid>/2020/02/my-vim-story/</guid>
+            <description>If you have worked in a command line at some point, I am sure you can praise the wisdom of learning how to use a text editor. On Unix/Linux command lines, text is king and learning how to manipulate text effectively goes a long way for productivity. If you know how to open a file and edit its content, that enables you to configure your system.
+I have been using Linux for a long time—even on my desktop/laptop system.</description>
+            <content type="html"><![CDATA[<p>If you have worked in a command line at some point, I am sure you can praise the wisdom of learning how to use a text editor. On Unix/Linux command lines, text is king and learning how to manipulate text effectively goes a long way for productivity. If you know how to open a file and edit its content, that enables you to configure your system.</p>
+<p>I have been using Linux for a long time—even on my desktop/laptop system. And my text editor of choice is called &ldquo;<a href="https://en.wikipedia.org/wiki/Vim_(text_editor)">Vim</a>&quot;. I occasionally use other editors such as &ldquo;<a href="https://wiki.gnome.org/Apps/Gedit">gedit</a>&rdquo; and &ldquo;<a href="https://uberwriter.github.io/uberwriter/">UberWriter</a>&quot;. However, most of the time when I am typing something in plain text, writing code, or editing a configuration file, I am using vim.</p>
+<p> </p>
+<hr>
+<p> </p>
+<p>Like many before me, I started my editor journey by running &lsquo;vim&rsquo;, then failing to exit it, and finally resigning to reboot the computer instead. Thus, I initially became an &lsquo;emacs&rsquo; user—primarily because &lsquo;nano&rsquo; was not around yet. Eventually, I learned the bare minimum of vim use, just enough to do basic text editing.</p>
+<p>Once you used notepad.exe on Windows you have used text editors—they said. Vim or not, a text editor is a text editor—I thought. But when other people who knew how to use vim used it, it still looked like magic.</p>
+<p>So—after years of working on Linux—somewhere around 2009 I took my time to properly learn vim and customize it to my liking. I think the act of writing multiple blog posts over the years about my editor configuration is proof enough how much I ended up liking vim. It is powerful and versatile—and more importantly, I enjoy using it.</p>
+<p>Back then my vim setup was a jumble of config files and a bunch of plugins dropped into a directory until it croaked reasonably the way I wanted. It was done out of necessity because vim did not have decent package management for plugins at that point.</p>
+<p> </p>
+<hr>
+<p> </p>
+<p>When <a href="https://github.com/tpope/vim-pathogen">Pathogen</a> came along, I jumped at the opportunity to organize things better. I had the idea that <a href="https://git-scm.com/docs/gitsubmodules">git submodules</a> could be used to manage individual plugins. I looked around and there seemed to be nobody doing that at the time. Therefore, I took a day and made the plunge to use Pathogen to manage vim plugins where individual plugins were included as git submodules. To the best of my knowledge no one had publicly shared a similar setup at the time—which was a humble brag for me.</p>
+<p>These past versions of my vim configuration files are no longer there. But a <a href="https://github.com/gaveen/gavim">somewhat later archived version</a> is on a git repo, while <a href="https://github.com/gaveen/vimfiles">my current vimfiles</a> are maintained on GitHub too. The most obvious change since then had been the switch to <a href="https://github.com/junegunn/vim-plug">vim-plug</a> for plugin management, which eliminated the need to juggle submodules and made the whole process quite painless.</p>
+<p>In any case, I plan to update this post sometime to include a few section explaining my up to date vim configuration. Just as it sounds, it will not be about how good or bad vim is, nor will it be about how to use vim. When I add those sections, it will be in the hope that it will be useful to someone, just like it helped me to read what others were doing.</p>
+<p> </p>
+<hr>
+<p> </p>
+<p>Latest version of my .vimrc can be <a href="https://github.com/gaveen/vimfiles/blob/master/.vimrc">found on GitHub</a>.</p>
+]]></content>
+        </item>
         
         <item>
             <title>Curtain call: Jayalath Manorathna</title>

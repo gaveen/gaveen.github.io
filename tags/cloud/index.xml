@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>cloud on Gaveen Prabhasara</title>
-    <link>/tags/cloud/</link>
+    <link>https://gaveen.me/tags/cloud/</link>
     <description>Recent content in cloud on Gaveen Prabhasara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Gaveen Prabhasara</copyright>
     <lastBuildDate>Sun, 01 Dec 2019 06:00:00 +0530</lastBuildDate>
     
-	<atom:link href="/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://gaveen.me/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>I don&#39;t believe in Kubernetes</title>
-      <link>/2019/12/i-don-t-believe-in-kubernetes/</link>
+      <link>https://gaveen.me/2019/12/i-don-t-believe-in-kubernetes/</link>
       <pubDate>Sun, 01 Dec 2019 06:00:00 +0530</pubDate>
       
-      <guid>/2019/12/i-don-t-believe-in-kubernetes/</guid>
+      <guid>https://gaveen.me/2019/12/i-don-t-believe-in-kubernetes/</guid>
       <description>I have always been a believer in Cloud Computing. Even when big executives of the world were calling it a fad, I believed in the cloud—or its promise. It was not so much an achievement to be had—rather as with to so many other people in tech—it spoke to me from a place of understanding. We may not have called it &amp;ldquo;cloud&amp;rdquo;, but when Amazon opened the gates of their Web Services to everyone, we saw good things we recognized with and we realized it was an opportunity to build things better.</description>
     </item>
     

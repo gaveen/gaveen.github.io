@@ -2,247 +2,247 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Gaveen Prabhasara</title>
-    <link>/tags/</link>
+    <link>https://gaveen.me/tags/</link>
     <description>Recent content in Tags on Gaveen Prabhasara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Gaveen Prabhasara</copyright>
     <lastBuildDate>Fri, 14 Feb 2020 20:00:00 +0530</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://gaveen.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>devops</title>
-      <link>/tags/devops/</link>
+      <link>https://gaveen.me/tags/devops/</link>
       <pubDate>Fri, 14 Feb 2020 20:00:00 +0530</pubDate>
       
-      <guid>/tags/devops/</guid>
+      <guid>https://gaveen.me/tags/devops/</guid>
       <description></description>
     </item>
     
     <item>
       <title>linux</title>
-      <link>/tags/linux/</link>
+      <link>https://gaveen.me/tags/linux/</link>
       <pubDate>Fri, 14 Feb 2020 20:00:00 +0530</pubDate>
       
-      <guid>/tags/linux/</guid>
+      <guid>https://gaveen.me/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>me</title>
-      <link>/tags/me/</link>
+      <link>https://gaveen.me/tags/me/</link>
       <pubDate>Fri, 14 Feb 2020 20:00:00 +0530</pubDate>
       
-      <guid>/tags/me/</guid>
+      <guid>https://gaveen.me/tags/me/</guid>
       <description></description>
     </item>
     
     <item>
       <title>vim</title>
-      <link>/tags/vim/</link>
+      <link>https://gaveen.me/tags/vim/</link>
       <pubDate>Fri, 14 Feb 2020 20:00:00 +0530</pubDate>
       
-      <guid>/tags/vim/</guid>
+      <guid>https://gaveen.me/tags/vim/</guid>
       <description></description>
     </item>
     
     <item>
       <title>art</title>
-      <link>/tags/art/</link>
+      <link>https://gaveen.me/tags/art/</link>
       <pubDate>Sun, 12 Jan 2020 22:00:00 +0530</pubDate>
       
-      <guid>/tags/art/</guid>
+      <guid>https://gaveen.me/tags/art/</guid>
       <description></description>
     </item>
     
     <item>
       <title>remembering</title>
-      <link>/tags/remembering/</link>
+      <link>https://gaveen.me/tags/remembering/</link>
       <pubDate>Sun, 12 Jan 2020 22:00:00 +0530</pubDate>
       
-      <guid>/tags/remembering/</guid>
+      <guid>https://gaveen.me/tags/remembering/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sri lanka</title>
-      <link>/tags/sri-lanka/</link>
+      <link>https://gaveen.me/tags/sri-lanka/</link>
       <pubDate>Sun, 12 Jan 2020 22:00:00 +0530</pubDate>
       
-      <guid>/tags/sri-lanka/</guid>
+      <guid>https://gaveen.me/tags/sri-lanka/</guid>
       <description></description>
     </item>
     
     <item>
       <title>blog</title>
-      <link>/tags/blog/</link>
+      <link>https://gaveen.me/tags/blog/</link>
       <pubDate>Wed, 01 Jan 2020 06:00:00 +0530</pubDate>
       
-      <guid>/tags/blog/</guid>
+      <guid>https://gaveen.me/tags/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cloud</title>
-      <link>/tags/cloud/</link>
+      <link>https://gaveen.me/tags/cloud/</link>
       <pubDate>Sun, 01 Dec 2019 06:00:00 +0530</pubDate>
       
-      <guid>/tags/cloud/</guid>
+      <guid>https://gaveen.me/tags/cloud/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cloud native</title>
-      <link>/tags/cloud-native/</link>
+      <link>https://gaveen.me/tags/cloud-native/</link>
       <pubDate>Sun, 01 Dec 2019 06:00:00 +0530</pubDate>
       
-      <guid>/tags/cloud-native/</guid>
+      <guid>https://gaveen.me/tags/cloud-native/</guid>
       <description></description>
     </item>
     
     <item>
       <title>kubernetes</title>
-      <link>/tags/kubernetes/</link>
+      <link>https://gaveen.me/tags/kubernetes/</link>
       <pubDate>Sun, 01 Dec 2019 06:00:00 +0530</pubDate>
       
-      <guid>/tags/kubernetes/</guid>
+      <guid>https://gaveen.me/tags/kubernetes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>networking</title>
-      <link>/tags/networking/</link>
+      <link>https://gaveen.me/tags/networking/</link>
       <pubDate>Tue, 01 Oct 2019 06:00:00 +0530</pubDate>
       
-      <guid>/tags/networking/</guid>
+      <guid>https://gaveen.me/tags/networking/</guid>
       <description></description>
     </item>
     
     <item>
       <title>open source</title>
-      <link>/tags/open-source/</link>
+      <link>https://gaveen.me/tags/open-source/</link>
       <pubDate>Tue, 01 Oct 2019 06:00:00 +0530</pubDate>
       
-      <guid>/tags/open-source/</guid>
+      <guid>https://gaveen.me/tags/open-source/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sdx</title>
-      <link>/tags/sdx/</link>
+      <link>https://gaveen.me/tags/sdx/</link>
       <pubDate>Tue, 01 Oct 2019 06:00:00 +0530</pubDate>
       
-      <guid>/tags/sdx/</guid>
+      <guid>https://gaveen.me/tags/sdx/</guid>
       <description></description>
     </item>
     
     <item>
       <title>terror</title>
-      <link>/tags/terror/</link>
+      <link>https://gaveen.me/tags/terror/</link>
       <pubDate>Mon, 22 Apr 2019 06:00:00 +0530</pubDate>
       
-      <guid>/tags/terror/</guid>
+      <guid>https://gaveen.me/tags/terror/</guid>
       <description></description>
     </item>
     
     <item>
       <title>united</title>
-      <link>/tags/united/</link>
+      <link>https://gaveen.me/tags/united/</link>
       <pubDate>Mon, 22 Apr 2019 06:00:00 +0530</pubDate>
       
-      <guid>/tags/united/</guid>
+      <guid>https://gaveen.me/tags/united/</guid>
       <description></description>
     </item>
     
     <item>
       <title>we</title>
-      <link>/tags/we/</link>
+      <link>https://gaveen.me/tags/we/</link>
       <pubDate>Mon, 22 Apr 2019 06:00:00 +0530</pubDate>
       
-      <guid>/tags/we/</guid>
+      <guid>https://gaveen.me/tags/we/</guid>
       <description></description>
     </item>
     
     <item>
       <title>parenting</title>
-      <link>/tags/parenting/</link>
+      <link>https://gaveen.me/tags/parenting/</link>
       <pubDate>Sat, 20 Apr 2019 06:00:00 +0530</pubDate>
       
-      <guid>/tags/parenting/</guid>
+      <guid>https://gaveen.me/tags/parenting/</guid>
       <description></description>
     </item>
     
     <item>
       <title>anime</title>
-      <link>/tags/anime/</link>
+      <link>https://gaveen.me/tags/anime/</link>
       <pubDate>Sun, 14 Apr 2019 06:00:00 +0530</pubDate>
       
-      <guid>/tags/anime/</guid>
+      <guid>https://gaveen.me/tags/anime/</guid>
       <description></description>
     </item>
     
     <item>
       <title>book</title>
-      <link>/tags/book/</link>
+      <link>https://gaveen.me/tags/book/</link>
       <pubDate>Sun, 14 Apr 2019 06:00:00 +0530</pubDate>
       
-      <guid>/tags/book/</guid>
+      <guid>https://gaveen.me/tags/book/</guid>
       <description></description>
     </item>
     
     <item>
       <title>poetry</title>
-      <link>/tags/poetry/</link>
+      <link>https://gaveen.me/tags/poetry/</link>
       <pubDate>Sun, 14 Apr 2019 06:00:00 +0530</pubDate>
       
-      <guid>/tags/poetry/</guid>
+      <guid>https://gaveen.me/tags/poetry/</guid>
       <description></description>
     </item>
     
     <item>
       <title>writing</title>
-      <link>/tags/writing/</link>
+      <link>https://gaveen.me/tags/writing/</link>
       <pubDate>Sun, 14 Apr 2019 06:00:00 +0530</pubDate>
       
-      <guid>/tags/writing/</guid>
+      <guid>https://gaveen.me/tags/writing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>infosec</title>
-      <link>/tags/infosec/</link>
+      <link>https://gaveen.me/tags/infosec/</link>
       <pubDate>Wed, 23 Jan 2019 06:00:00 +0530</pubDate>
       
-      <guid>/tags/infosec/</guid>
+      <guid>https://gaveen.me/tags/infosec/</guid>
       <description></description>
     </item>
     
     <item>
       <title>offline</title>
-      <link>/tags/offline/</link>
+      <link>https://gaveen.me/tags/offline/</link>
       <pubDate>Wed, 23 Jan 2019 06:00:00 +0530</pubDate>
       
-      <guid>/tags/offline/</guid>
+      <guid>https://gaveen.me/tags/offline/</guid>
       <description></description>
     </item>
     
     <item>
       <title>online</title>
-      <link>/tags/online/</link>
+      <link>https://gaveen.me/tags/online/</link>
       <pubDate>Mon, 14 Jan 2019 06:00:00 +0530</pubDate>
       
-      <guid>/tags/online/</guid>
+      <guid>https://gaveen.me/tags/online/</guid>
       <description></description>
     </item>
     
     <item>
       <title>privacy</title>
-      <link>/tags/privacy/</link>
+      <link>https://gaveen.me/tags/privacy/</link>
       <pubDate>Mon, 14 Jan 2019 06:00:00 +0530</pubDate>
       
-      <guid>/tags/privacy/</guid>
+      <guid>https://gaveen.me/tags/privacy/</guid>
       <description></description>
     </item>
     

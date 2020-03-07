@@ -18,8 +18,8 @@
       <pubDate>Fri, 14 Feb 2020 20:00:00 +0530</pubDate>
       
       <guid>https://gaveen.me/2020/02/my-vim-story/</guid>
-      <description>If you have worked in a command line at some point, I am sure you can praise the wisdom of learning how to use a text editor. On Unix/Linux command lines, text is king and learning how to manipulate text effectively goes a long way for productivity. If you know how to open a file and edit its content, that enables you to configure your system.
-I have been using Linux for a long time—even on my desktop/laptop system.</description>
+      <description>Once you have used &amp;lsquo;notepad.exe&amp;rsquo;, you have used all text editors—they said. A text editor is a text editor is a text editor—they said. After the first few years of running Linux/Unix professionally, I kind of subconsciously agreed with this idea, eventhough I knew Vim—I thought I knew Vim. But when other people who actually knew how to use Vim used it, Vim still looked like magic.
+If you have worked in a command line at some point, I am sure you can appreciate the wisdom of learning how to use a text editing program properly.</description>
     </item>
     
   </channel>

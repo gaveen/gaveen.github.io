@@ -13,11 +13,6 @@
   </url>
   
   <url>
-    <loc>https://gaveen.me/</loc>
-    <lastmod>2020-02-14T20:00:00+05:30</lastmod>
-  </url>
-  
-  <url>
     <loc>https://gaveen.me/tags/linux/</loc>
     <lastmod>2020-02-14T20:00:00+05:30</lastmod>
   </url>
@@ -94,6 +89,11 @@
   
   <url>
     <loc>https://gaveen.me/about/</loc>
+    <lastmod>2020-01-01T06:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gaveen.me/</loc>
     <lastmod>2020-01-01T06:00:00+05:30</lastmod>
   </url>
   

@@ -6,10 +6,6 @@
     <description>Recent content in Series on Gaveen Prabhasara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Gaveen Prabhasara</copyright>
-    
-	<atom:link href="https://gaveen.me/series/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>Gaveen Prabhasara</copyright><atom:link href="https://gaveen.me/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

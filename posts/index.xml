@@ -15,9 +15,9 @@
             <pubDate>Fri, 14 Feb 2020 20:00:00 +0530</pubDate>
             
             <guid>https://gaveen.me/2020/02/my-vim-story/</guid>
-            <description>Once you have used &amp;lsquo;notepad.exe&amp;rsquo;, you have used all text editors—they said. A text editor is a text editor is a text editor—they said. After the first few years of running Linux/Unix professionally, I kind of subconsciously agreed with this idea, eventhough I knew Vim—I thought I knew Vim. But when other people who actually knew how to use Vim used it, Vim still looked like magic.
+            <description>Once you have used &amp;rsquo;notepad.exe&amp;rsquo;, you have used all text editors—they said. A text editor is a text editor is a text editor—they said. After the first few years of running Linux/Unix professionally, I kind of subconsciously agreed with this idea, eventhough I knew Vim—I thought I knew Vim. But when other people who actually knew how to use Vim used it, Vim still looked like magic.
 If you have worked in a command line at some point, I am sure you can appreciate the wisdom of learning how to use a text editing program properly.</description>
-            <content type="html"><![CDATA[<p>Once you have used &lsquo;notepad.exe&rsquo;, you have used all text editors—they said. A text editor is a text editor is a text editor—they said. After the first few years of running Linux/Unix professionally, I kind of subconsciously agreed with this idea, eventhough I knew Vim—I thought I knew Vim. But when other people who actually knew how to use Vim used it, <a href="https://en.wikipedia.org/wiki/Vim_(text_editor)">Vim</a> still looked like magic.</p>
+            <content type="html"><![CDATA[<p>Once you have used &rsquo;notepad.exe&rsquo;, you have used all text editors—they said. A text editor is a text editor is a text editor—they said. After the first few years of running Linux/Unix professionally, I kind of subconsciously agreed with this idea, eventhough I knew Vim—I thought I knew Vim. But when other people who actually knew how to use Vim used it, <a href="https://en.wikipedia.org/wiki/Vim_(text_editor)">Vim</a> still looked like magic.</p>
 <p>If you have worked in a command line at some point, I am sure you can appreciate the wisdom of learning how to use a text editing program properly. On Unix/Linux command lines, text is king. Therefore, learning how to manipulate text effectively goes a long way for your productivity. If you know how to open a file and edit its content, that enables you to configure your system too.</p>
 <p>The text editing program I prefer for these kind of work is Vim. It is also the text editor I can pretty much expect to find in any environment I log into—laptops and servers alike. Vim is available on multiple operating systems including Linux—which is my OS of choice.</p>
 <p>There are other text editors I occasionally use such as &ldquo;<a href="https://wiki.gnome.org/Apps/Gedit">gedit</a>&rdquo; and &ldquo;<a href="https://gitlab.gnome.org/somas/apostrophe/">Apostrophe</a>&rdquo;. But, most of the time, when I am typing something, writing code, or editing a configuration file, I am using vim.</p>
@@ -59,7 +59,7 @@ If you have worked in a command line at some point, I am sure you can appreciate
 A <code>window</code> is a viewport on a buffer. <br>
 A <code>tab page</code> is a collection of windows.</p>
 </blockquote>
-<p>Trying to use tab pages as different file editing spaces is a common mistake that can lead to confusing errors. If you are not sure about what to use, try <code>buffers</code> first since they are the primitive you need as editing spaces and you view them anyway in &lsquo;windows&rsquo;. If you think you need &lsquo;tab pages&rsquo;, you can introduce them into your workflow later.</p>
+<p>Trying to use tab pages as different file editing spaces is a common mistake that can lead to confusing errors. If you are not sure about what to use, try <code>buffers</code> first since they are the primitive you need as editing spaces and you view them anyway in &lsquo;windows&rsquo;. If you think you need &rsquo;tab pages&rsquo;, you can introduce them into your workflow later.</p>
 <p><strong>Vim is extensible with plugins.</strong> You can add features/functions not inbuilt by using plugins, which are programs written in <code>vimscript</code> or other programming languages. You will see below which plugins I am using.</p>
 <p>To summarize these key concepts:</p>
 <ul>
@@ -83,7 +83,7 @@ A <code>tab page</code> is a collection of windows.</p>
 <hr>
 <p> <br>
 Next up is something that actually has an effect on the text you will be editing—how the <code>tab</code> character/key is handled.</p>
-<p>I know how polarizing &ldquo;Tabs vs Spaces&rdquo; debate can be. Therefore, I will not get into it. I used to be in &lsquo;tabs&rsquo; camp in the very beginning, but I switched to using spaces instead of tabs where I can, mainly for the purpose of getting a reasonably consistent visual experience across different environments.</p>
+<p>I know how polarizing &ldquo;Tabs vs Spaces&rdquo; debate can be. Therefore, I will not get into it. I used to be in &rsquo;tabs&rsquo; camp in the very beginning, but I switched to using spaces instead of tabs where I can, mainly for the purpose of getting a reasonably consistent visual experience across different environments.</p>
 <script type="application/javascript" src="https://gist.github.com/gaveen/4d32d0200ae49c0489be44d8cbf21cfc.js?file=tabs.vim"></script>
 
 <p>I prefer to have 4 spaces per tab because most of the languages I work with these days (e.g., <a href="https://www.rust-lang.org/">Rust</a>) play nicely with that. The <a href="https://vimhelp.org/options.txt.html#%27smarttab%27"><code>smarttab</code></a> and <a href="https://vimhelp.org/options.txt.html#%27bs%27"><code>bs</code></a> settings help with backspace among other things when you use spaces instead of tabs. If you do not set these, using backspace to delete all the expanded tab characters would become tedious.</p>
@@ -197,7 +197,7 @@ Finally, we have the exciting part—colorscheme! The first two lines <code>term
 <script type="application/javascript" src="https://gist.github.com/gaveen/4d32d0200ae49c0489be44d8cbf21cfc.js?file=colorscheme.vim"></script>
 
 <p>My <code>termguicolors</code> setting explicitly says that the terminal you are using supports GUI colors. It does in my case because most of the time I use <a href="https://gitlab.gnome.org/GNOME/gnome-terminal">GNOME Terminal</a> which comes with <a href="https://getfedora.org/">Fedora</a>. If your terminal does not support GUI colors, then do not set this.</p>
-<p>My <code>background</code> setting is to make my terminal background dark. Like many people who need to stare at a screen for a long time, I too prefer dark themes whenever I have the option. Some colorschemes select between dark and light versions based on this value, which is why I have made &lsquo;dark&rsquo; explicit. If you prefer light, you can set it to &lsquo;light&rsquo; too.</p>
+<p>My <code>background</code> setting is to make my terminal background dark. Like many people who need to stare at a screen for a long time, I too prefer dark themes whenever I have the option. Some colorschemes select between dark and light versions based on this value, which is why I have made &lsquo;dark&rsquo; explicit. If you prefer light, you can set it to &rsquo;light&rsquo; too.</p>
 <p>If you do not need either of these two, then you should not set them because some colorschemes would look weird if you set the values different from what they are expecting or capable of handling.</p>
 <p>With those out of the way, I finally set a colorscheme. My colorscheme of choice have changed overtime. These days, I prefer a theme called &ldquo;<a href="https://github.com/rakr/vim-one">One</a>&rdquo; which has both a light and dark version (picked based one the <code>background</code> setting).</p>
 <p>The end result should look something like <a href="https://i.imgur.com/lETk5yt.png">this (screenshot on Imgur)</a>.<br>
@@ -241,7 +241,8 @@ Somewhere in late &amp;rsquo;90s I was a teenager trying to traverse self-expres
 <p> </p>
 <hr>
 <p> </p>
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Playwright, director, and one of the finest actors Sri Lanka has ever produced, and I&#39;m at a loss of words.<br><br>Among other things, that Paustovsky monolog in your semi-documentary play &quot;Guru Tharuwa&quot; literally changed my life.<br><br>Good sir, you will be terribly missed. <a href="https://t.co/ni9AWYBLiD">https://t.co/ni9AWYBLiD</a></p>&mdash; Gaveen Prabhasara (@gaveen) <a href="https://twitter.com/gaveen/status/1216227579994075137?ref_src=twsrc%5Etfw">January 12, 2020</a></blockquote>
+
+  <blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">Playwright, director, and one of the finest actors Sri Lanka has ever produced, and I&#39;m at a loss of words.<br><br>Among other things, that Paustovsky monolog in your semi-documentary play &quot;Guru Tharuwa&quot; literally changed my life.<br><br>Good sir, you will be terribly missed. <a href="https://t.co/ni9AWYBLiD">https://t.co/ni9AWYBLiD</a></p>&mdash; Gaveen Prabhasara (@gaveen) <a href="https://twitter.com/gaveen/status/1216227579994075137?ref_src=twsrc%5Etfw">January 12, 2020</a></blockquote>
 
 ]]></content>
         </item>
@@ -275,7 +276,7 @@ Somewhere in late &amp;rsquo;90s I was a teenager trying to traverse self-expres
 <hr>
 <ol>
 <li id="fn:1" role="doc-endnote">
-<p><strong>PSA</strong>: Containers ≠ Docker ≠ Kubernetes <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p><strong>PSA</strong>: Containers ≠ Docker ≠ Kubernetes&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </section>
@@ -313,40 +314,40 @@ While what I just mentioned maybe obvious to say—given how pretty much everyth
 <hr>
 <ol>
 <li id="fn:1" role="doc-endnote">
-<p>e.g., <a href="https://ceph.io/">Ceph</a>, <a href="https://min.io/">MinIO</a>, etc. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>e.g., <a href="https://ceph.io/">Ceph</a>, <a href="https://min.io/">MinIO</a>, etc.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:2" role="doc-endnote">
-<p><a href="https://www.sdxcentral.com/networking/nfv/definitions/whats-network-functions-virtualization-nfv/">Network Functions Virtualization</a> (e.g., OPNFV) <a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p><a href="https://www.sdxcentral.com/networking/nfv/definitions/whats-network-functions-virtualization-nfv/">Network Functions Virtualization</a> (e.g., OPNFV)&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:3" role="doc-endnote">
-<p><a href="https://www.sdxcentral.com/networking/sdn/definitions/what-the-definition-of-software-defined-networking-sdn/">Software-Defined Networking</a> <a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p><a href="https://www.sdxcentral.com/networking/sdn/definitions/what-the-definition-of-software-defined-networking-sdn/">Software-Defined Networking</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:4" role="doc-endnote">
-<p><a href="https://www.sdxcentral.com/networking/sd-wan/definitions/software-defined-sdn-wan/">SD-WAN</a> <a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p><a href="https://www.sdxcentral.com/networking/sd-wan/definitions/software-defined-sdn-wan/">SD-WAN</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:5" role="doc-endnote">
-<p><a href="https://en.m.wikipedia.org/wiki/Network_virtualization">Network Virtualization</a> (e.g., VMware NSX) <a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p><a href="https://en.m.wikipedia.org/wiki/Network_virtualization">Network Virtualization</a> (e.g., VMware NSX)&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:6" role="doc-endnote">
-<p><a href="https://en.m.wikipedia.org/wiki/Converged_infrastructure">Converged Infrastructure</a> <a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p><a href="https://en.m.wikipedia.org/wiki/Converged_infrastructure">Converged Infrastructure</a>&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:7" role="doc-endnote">
-<p><a href="https://en.m.wikipedia.org/wiki/Hyper-converged_infrastructure">Hyperconverged Infrastructure</a> <a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p><a href="https://en.m.wikipedia.org/wiki/Hyper-converged_infrastructure">Hyperconverged Infrastructure</a>&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:8" role="doc-endnote">
-<p>Competing vendors like Arista and Cisco use the same Broadcom ASIC silicon series (e.g., Tomahawk, Trident, Jericho) in some of their comparable switches. <a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>Competing vendors like Arista and Cisco use the same Broadcom ASIC silicon series (e.g., Tomahawk, Trident, Jericho) in some of their comparable switches.&#160;<a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:9" role="doc-endnote">
-<p>e.g., Cumulus Networks, Big Switch Networks, and Pluribus Networks <a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>e.g., Cumulus Networks, Big Switch Networks, and Pluribus Networks&#160;<a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:10" role="doc-endnote">
-<p>Cloud Computing and its inner aspects such as public/hybrid clouds, Cloud Native Infrastructure, etc. has become a mainstay in the industry, and continue to influence the thinking in adjacent areas of technology. <a href="#fnref:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>Cloud Computing and its inner aspects such as public/hybrid clouds, Cloud Native Infrastructure, etc. has become a mainstay in the industry, and continue to influence the thinking in adjacent areas of technology.&#160;<a href="#fnref:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:11" role="doc-endnote">
-<p>Either talking in terms of older core/aggregation/access switch classification or the newer spine/leaf classification, is still hinged on the fact that these switches are usually built for different purposes with different limitations and capabilities. However, if everything is software, running on sufficient compute power, and necessary physical connectivity, there will not be much technical justification why one of your switches cannot be a core switch while another is orders of magnitude more expensive than the previous one. <a href="#fnref:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>Either talking in terms of older core/aggregation/access switch classification or the newer spine/leaf classification, is still hinged on the fact that these switches are usually built for different purposes with different limitations and capabilities. However, if everything is software, running on sufficient compute power, and necessary physical connectivity, there will not be much technical justification why one of your switches cannot be a core switch while another is orders of magnitude more expensive than the previous one.&#160;<a href="#fnref:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:12" role="doc-endnote">
-<p>Layer 4 - 7 software options include cloud-native software such as <a href="https://cilium.io/">Cilium</a>, Service Mesh software (e.g., <a href="https://www.envoyproxy.io/">Envoy</a>/<a href="https://istio.io/">Istio</a>, and <a href="https://linkerd.io/">Linkerd</a>), etc. <a href="#fnref:12" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>Layer 4 - 7 software options include cloud-native software such as <a href="https://cilium.io/">Cilium</a>, Service Mesh software (e.g., <a href="https://www.envoyproxy.io/">Envoy</a>/<a href="https://istio.io/">Istio</a>, and <a href="https://linkerd.io/">Linkerd</a>), etc.&#160;<a href="#fnref:12" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </section>
@@ -364,7 +365,8 @@ As I type these words away, I&amp;rsquo;m but a walking distance away from Mahaw
             <content type="html"><![CDATA[<p>I&rsquo;m early to work, because the roads are mostly empty. That&rsquo;s not because of an extended holiday season. No, that finished last week. People are trying to stay home because of the <a href="https://roar.media/english/life/in-the-know/easter-sunday-explosions-in-sri-lanka/"><em>Easter Sunday Attacks</em></a>—they are uncertain where to go from here.</p>
 <p>As I type these words away, I&rsquo;m but a walking distance away from Mahawela Gardens, where one gruesome episode of Sunday&rsquo;s events took place. I also hear stories in the background about colleagues who have lost family members. I think back to Sunday, as it unfolded, I remember holding my baby tightly in my arms while my mind kept repeatedly asking for his forgiveness for the world that we have created for his generation.</p>
 <p>There&rsquo;s no point of leaving yet another anecdote of the terror that took the lives of at least 259 people (including both Sri Lankans and friends of Sri Lanka) and left twice as many injured. They attacked places of worship, they attacked hotels. Even before anything came to light, most of the Sri Lankans knew what it was—terrorism. They knew it because they have experienced it before, and in less than a decade it had come to haunt them again—perhaps with a new face and a carrier—yet, terrorism.</p>
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Please everyone, someone is clearly trying to send a message of terror. Let&#39;s not be their tools.<br><br>Don&#39;t speculate or spread rumors. Don&#39;t share racial sentiments.<br><br>Show these cowards that we are all Sri Lanka today. And, we will not be defined by this hate.<a href="https://twitter.com/hashtag/lk?src=hash&amp;ref_src=twsrc%5Etfw">#lk</a> <a href="https://twitter.com/hashtag/EasterAttackSL?src=hash&amp;ref_src=twsrc%5Etfw">#EasterAttackSL</a></p>&mdash; Gaveen Prabhasara (@gaveen) <a href="https://twitter.com/gaveen/status/1119833111854845952?ref_src=twsrc%5Etfw">April 21, 2019</a></blockquote>
+
+  <blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">Please everyone, someone is clearly trying to send a message of terror. Let&#39;s not be their tools.<br><br>Don&#39;t speculate or spread rumors. Don&#39;t share racial sentiments.<br><br>Show these cowards that we are all Sri Lanka today. And, we will not be defined by this hate.<a href="https://twitter.com/hashtag/lk?src=hash&amp;ref_src=twsrc%5Etfw">#lk</a> <a href="https://twitter.com/hashtag/EasterAttackSL?src=hash&amp;ref_src=twsrc%5Etfw">#EasterAttackSL</a></p>&mdash; Gaveen Prabhasara (@gaveen) <a href="https://twitter.com/gaveen/status/1119833111854845952?ref_src=twsrc%5Etfw">April 21, 2019</a></blockquote>
 
 <hr>
 <p> </p>
@@ -432,7 +434,8 @@ Whatever happened to that book you were writing?—is not a question I have been
 <h1 id="untitled-sci-fi-novel-english">Untitled sci-fi novel (English)</h1>
 <p>I had not really written anything this ambitious on longer formats. I once tried to write a fiction in Sinhala, a long time ago, and managed to have fun writing the first act. Then I realized a couple of things. First, it was going to end up a short story—which was fine. But the next realization was a much more severe blow. I felt I was writing a derived story. It was not a plagiarized plot, but it felt like something anyone has heard before. And, that proved to be the end of it.</p>
 <p>I cannot really remember where the initial spark came from. But there is a story unfolding in my mind. Somewhere in November, 2016, I started writing it down—bits and pieces, from here and there.</p>
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Something I&#39;ve been working in my free time for the past month. Putting it out there so that I commit. No dates. But guess I&#39;m doing <a href="https://twitter.com/hashtag/this?src=hash&amp;ref_src=twsrc%5Etfw">#this</a>. <a href="https://t.co/mANc5QJO8c">pic.twitter.com/mANc5QJO8c</a></p>&mdash; Gaveen Prabhasara (@gaveen) <a href="https://twitter.com/gaveen/status/814444496939347969?ref_src=twsrc%5Etfw">December 29, 2016</a></blockquote>
+
+  <blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">Something I&#39;ve been working in my free time for the past month. Putting it out there so that I commit. No dates. But guess I&#39;m doing <a href="https://twitter.com/hashtag/this?src=hash&amp;ref_src=twsrc%5Etfw">#this</a>. <a href="https://t.co/mANc5QJO8c">pic.twitter.com/mANc5QJO8c</a></p>&mdash; Gaveen Prabhasara (@gaveen) <a href="https://twitter.com/gaveen/status/814444496939347969?ref_src=twsrc%5Etfw">December 29, 2016</a></blockquote>
 
 <p>When I started working on this sci-fi/fantasy novel, I not only started having a ridiculous amount of fun figuring out how the story was unfolding, but I also found the <em>need</em> to write. It felt like a story no one else would write, it felt like a story only I could write. Every time my inner critic felt, &ldquo;that bit is not that great&rdquo;, my sense of wonder kicked-in, enthusiastically saying things like: &ldquo;Well, you are the one creating it! Make it awesome!&rdquo;</p>
 <p>Right around the time I was carefully climbing down that euphoric high, a few stars happened to align just the wrong way. For one, I got supper busy with work, where I had to juggle three different full-time job roles.</p>

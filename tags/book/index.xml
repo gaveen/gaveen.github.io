@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Gaveen Prabhasara</copyright>
-    <lastBuildDate>Sun, 14 Apr 2019 06:00:00 +0530</lastBuildDate>
-    
-	<atom:link href="https://gaveen.me/tags/book/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 14 Apr 2019 06:00:00 +0530</lastBuildDate><atom:link href="https://gaveen.me/tags/book/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Whatever happened to that book?</title>
       <link>https://gaveen.me/2019/04/whatever-happened-to-that-book/</link>

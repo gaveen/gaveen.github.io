@@ -7,18 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Gaveen Prabhasara</copyright>
-    <lastBuildDate>Fri, 14 Feb 2020 20:00:00 +0530</lastBuildDate>
-    
-	<atom:link href="https://gaveen.me/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 14 Feb 2020 20:00:00 +0530</lastBuildDate><atom:link href="https://gaveen.me/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Vim Story</title>
       <link>https://gaveen.me/2020/02/my-vim-story/</link>
       <pubDate>Fri, 14 Feb 2020 20:00:00 +0530</pubDate>
       
       <guid>https://gaveen.me/2020/02/my-vim-story/</guid>
-      <description>Once you have used &amp;lsquo;notepad.exe&amp;rsquo;, you have used all text editors—they said. A text editor is a text editor is a text editor—they said. After the first few years of running Linux/Unix professionally, I kind of subconsciously agreed with this idea, eventhough I knew Vim—I thought I knew Vim. But when other people who actually knew how to use Vim used it, Vim still looked like magic.
+      <description>Once you have used &amp;rsquo;notepad.exe&amp;rsquo;, you have used all text editors—they said. A text editor is a text editor is a text editor—they said. After the first few years of running Linux/Unix professionally, I kind of subconsciously agreed with this idea, eventhough I knew Vim—I thought I knew Vim. But when other people who actually knew how to use Vim used it, Vim still looked like magic.
 If you have worked in a command line at some point, I am sure you can appreciate the wisdom of learning how to use a text editing program properly.</description>
     </item>
     
@@ -38,8 +34,8 @@ Somewhere in late &amp;rsquo;90s I was a teenager trying to traverse self-expres
       <pubDate>Wed, 01 Jan 2020 06:00:00 +0530</pubDate>
       
       <guid>https://gaveen.me/about/</guid>
-      <description>Obviously, not many people contact me asking things about this blog. So, I&amp;rsquo;m placing these fabricated questions here to tell you a little more about a few things.
- First things first, is there a dark mode? Of course, I&amp;rsquo;m not uncivilized. There&amp;rsquo;s a circle icon towards the top right-hand corner that looks something like ◑. Honestly, you can&amp;rsquo;t miss it. It&amp;rsquo;s the only icon there. Click it and it will toggle between &amp;ldquo;dark&amp;rdquo; and &amp;ldquo;light&amp;rdquo; modes.</description>
+      <description>Not many people have contacted me asking things about this blog. So, I&amp;rsquo;m placing these fabricated questions here to tell you a little more about a few things.
+First things first, is there a light mode? Of course. There&amp;rsquo;s a circle icon towards the top right-hand corner that looks something like ◑. Honestly, you can&amp;rsquo;t miss it. It&amp;rsquo;s the only icon there. Click it and it will toggle between &amp;ldquo;dark&amp;rdquo; and &amp;ldquo;light&amp;rdquo; modes.</description>
     </item>
     
     <item>

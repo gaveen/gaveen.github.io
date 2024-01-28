@@ -1,0 +1,71 @@
+baseURL = "https://gaveen.me/"
+languageCode = "en-us"
+title = "Gaveen Prabhasara"
+
+theme = "paper"
+paginate = 10
+
+[params]
+  # color style
+  color = 'light'                           # linen, wheat, gray, light
+
+  # header social icons
+  github = 'gaveen'
+  mastodon = 'https://hachyderm.io/@gaveen'
+  rss = true
+
+  # home page profile
+  avatar = 'gaveen@pm.me'
+  name = 'Gaveen Prabhasara'
+  bio = 'SysAdmin, Programming Language Tourist, and Petty Dabbler of the Written Word'
+
+  # misc
+  disableHLJS = false                       # disable highlight.js
+  disablePostNavigation = false             # disable post navigation
+  monoDarkIcon = true                       # show monochrome dark mode icon
+  math = true                               # enable KaTeX math typesetting globally
+
+# Site menu
+[menu]
+[[menu.main]]
+  name = 'Posts'
+  url = '/posts'
+  weight = 1
+[[menu.main]]
+  name = 'About'
+  url = '/about'
+  weight = 2
+[[menu.main]]
+  name = 'Facets'
+  url = '/facets'
+  weight = 3
+  
+# Define taxonomies
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+# Privacy settings
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    disable = true
+  [privacy.instagram]
+    disable = true
+  [privacy.twitter]
+    disable = true
+  [privacy.vimeo]
+    disable = false
+    enableDNT = true
+    simple = false
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true
+
+# Define how permalinks are organized
+[permalinks]
+  posts = "/:year/:month/:slug/"
+  facets = "/facets/:slug/"
+  about = "/about/:slug/"

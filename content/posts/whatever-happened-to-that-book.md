@@ -28,8 +28,8 @@ If I take quite a bit of liberty with the term "poetry," I have been writing poe
 Somewhere, roughly around fifteen years ago, I naively thought I had enough poems to compile into a book. To get to the point, I am certainly not the person I used to be—nor is my art. My values have changed quite drastically, and some firmly believed ethos—I have shed without leaving a trace. I did all this while reading a ton of poetry from around the world.
 
 As a result, I do something of a ritual to my old writing when I grow past them. To borrow an action from [Paustovsky](https://en.wikipedia.org/wiki/Konstantin_Paustovsky) and from one of my own poems (roughly translated):
-> "I set the field of paper flowers on fire  
-> so that none may see."
+> I set the field of paper flowers on fire  
+> so that none may see
 
 I usually do that in the most literal way possible. I discarded most of my old writing without any guilt or remorse whatsoever. As the papers burned, I felt the concern of being associated with them lift off my shoulders.
 

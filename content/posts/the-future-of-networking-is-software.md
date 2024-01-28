@@ -10,7 +10,7 @@ tags:
   - Open Source
   - Cloud
   - DevOps
-draft: true
+draft: false
 ---
 
 I believe the future of networking in the data center is software-based. The water is wet, and thank you for coming to my TED talk.

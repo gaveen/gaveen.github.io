@@ -10,7 +10,7 @@ tags:
   - Poetry
   - Book
   - Anime
-draft: true
+draft: false
 ---
 
 **Edit:** *This post has been slightly updated at the end of 2023 to reflect a more recent status of the writing projects.*

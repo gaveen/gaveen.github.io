@@ -11,7 +11,7 @@ tags:
   - Vimfiles
   - Configuration
   - Linux
-draft: true
+draft: false
 ---
 
 Once you have used 'notepad.exe,' you have used all text editors—they said. A text editor is a text editor is a text editor—they said. After the first few years of running Linux/Unix professionally, I had subconsciously almost agreed with this idea, even though I knew Vim—more accurately, I thought I knew Vim. But when other people who actually knew how to use Vim used it, [Vim](https://en.wikipedia.org/wiki/Vim_(text_editor)) still looked like magic.

@@ -12,7 +12,7 @@ tags:
   - Asura Linux
 slug: 'asura'
 weight: 12
-draft: true
+draft: false
 ---
 
 I started **Asura Linux** as a new Open Source project to experiment with different ways of building and running modern general-purpose Linux systems—and to share what we learn along the way.

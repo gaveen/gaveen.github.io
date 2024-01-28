@@ -16,7 +16,7 @@ tags:
   - ID75
 slug: 'my-keyboard-config'
 weight: 13
-draft: true
+draft: false
 ---
 
 One of my hobbies/special interests is Ergonomic Mechanical Keyboards and Keyboard Layouts that go with them. I'll use this page (soon) as an up-to-date place to explain how I have configured my custom ergonomic keyboard setup.

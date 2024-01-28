@@ -7,7 +7,7 @@ categories:
   - Update
 tags:
   - Meta
-draft: true
+draft: false
 ---
 
 Where should I begin? Is this on?

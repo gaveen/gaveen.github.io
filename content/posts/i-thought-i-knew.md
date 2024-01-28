@@ -8,7 +8,7 @@ categories:
 tags:
   - Parenting
   - Love
-draft: true
+draft: false
 ---
 
 I thought I knew how being a father would be. I have a father, a good one. I understood that much. I have nephews and nieces, and I love them to bits. I understood that much. So, when we became pregnant, I thought I knew how being a parent felt.

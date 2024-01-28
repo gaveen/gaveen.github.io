@@ -8,7 +8,7 @@ tags:
   - Project
 slug: 'mayavee'
 weight: 11
-draft: true
+draft: false
 ---
 
 **Mayavee** is a humble little idea that—driven by its values—smaller-scale research with a practical approach can effect meaningful improvements.

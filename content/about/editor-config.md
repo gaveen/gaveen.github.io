@@ -14,7 +14,7 @@ tags:
   - Obsidian
 slug: 'my-editor-config'
 weight: 14
-draft: true
+draft: false
 ---
 
 In the future, I might keep an up-to-date page here explaining my text editor configuration (including plugin selection), both for posterity and as a hopefully helpful source of information.

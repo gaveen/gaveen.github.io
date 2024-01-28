@@ -10,7 +10,7 @@ tags:
   - Cloud Native
   - K8s
   - DevOps
-draft: true
+draft: false
 ---
 
 I was always a believer in [Cloud Computing](https://azure.microsoft.com/en-us/overview/what-is-cloud-computing/). Even when some "big executives" called it a fad, I still believed in the cloud—or its promise.

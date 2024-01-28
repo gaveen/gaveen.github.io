@@ -8,7 +8,7 @@ categories:
 tags:
   - Sri Lanka
   - Terrorism
-draft: true
+draft: false
 ---
 
 I'm early to work because the roads are mostly empty. That's not because of an extended holiday season. No, that finished last week. People are trying to stay home because of the [*Easter Sunday Attacks*](https://roar.media/english/life/in-the-know/easter-sunday-explosions-in-sri-lanka/)—they are uncertain where to go from here.

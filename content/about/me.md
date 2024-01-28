@@ -10,7 +10,7 @@ tags:
   - Me
 slug: 'me'
 weight: 11
-draft: true
+draft: false
 ---
 
 I'm *Gaveen Prabhasara de Silva,* a SysAdmin, Programming Language Tourist, and Petty Dabbler of the Written Word. I am also neurodivergent and a father.

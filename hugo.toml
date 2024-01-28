@@ -7,7 +7,7 @@ paginate = 10
 
 [params]
   # color style
-  color = 'light'                           # linen, wheat, gray, light
+  color = 'linen'                           # linen, wheat, gray, light
 
   # header social icons
   github = 'gaveen'

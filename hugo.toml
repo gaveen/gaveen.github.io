@@ -10,8 +10,8 @@ paginate = 10
   color = 'light'                           # linen, wheat, gray, light
 
   # header social icons
-  github = 'gaveen'
   mastodon = 'https://hachyderm.io/@gaveen'
+  github = 'gaveen'
   rss = true
 
   # home page profile

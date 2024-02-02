@@ -3,8 +3,8 @@ title: I thought I knew
 date: "2019-04-20"
 author: 'Gaveen Prabhasara'
 categories:
+  - Prose
   - Personal
-  - Update
 tags:
   - Parenting
   - Love

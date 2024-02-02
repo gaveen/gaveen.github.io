@@ -3,9 +3,11 @@ title: 'Curtain call: Jayalath Manorathna'
 date: "2020-01-12"
 author: 'Gaveen Prabhasara'
 categories:
+  - Prose
   - Remembering
 tags:
   - Art
+  - Meta
   - Sri Lanka
   - Remembering
 draft: false

@@ -5,54 +5,36 @@ author: 'Gaveen Prabhasara'
 categories:
   - About
 tags:
-  - Meta
+  - Blog Meta
 slug: 'navigation-and-feeds'
 weight: 12
 draft: false
 ---
 
-## RSS Feeds
+## Links and RSS Feeds
 
 Since this site is generated with [Hugo](https://gohugo.io/), RSS feeds should be supported everywhere. All you have to do is to append a `/index.xml` to the URL of a relevant section.
 
-Here are some examples.
+| Section | Link | RSS Feed |
+| ---- | ---- | ---- |
+| **Main** | [gaveen.me](https://gaveen.me/) | https://gaveen.me/index.xml |
+| **Sections** | [Blog Posts](https://gaveen.me/posts) | https://gaveen.me/posts/index.xml |
+|  | [About](https://gaveen.me/about) | https://gaveen.me/about/index.xml |
+|  | [Facets](https://gaveen.me/facets) | https://gaveen.me/facets/index.xml |
+| **Categories** | [Tech](https://gaveen.me/categories/tech/) | https://gaveen.me/categories/tech/index.xml |
+|  | [Update](https://gaveen.me/categories/update/) | https://gaveen.me/categories/update/index.xml |
+|  | [Opinion](https://gaveen.me/categories/opinion/) | https://gaveen.me/categories/opinion/index.xml |
+|  | [Prose](https://gaveen.me/categories/prose/) | https://gaveen.me/categories/prose/index.xml |
+|  | [Poetry](https://gaveen.me/categories/poetry/) | https://gaveen.me/categories/poetry/index.xml |
+|  | [Musing](https://gaveen.me/categories/musing/) | https://gaveen.me/categories/musing/index.xml |
+|  | [Remembering](https://gaveen.me/categories/remembering/) | https://gaveen.me/categories/remembering/index.xml |
+|  | [Personal](https://gaveen.me/categories/personal/) | https://gaveen.me/categories/personal/index.xml |
+| **Tags** | #[Vim](https://gaveen.me/tags/vim/) | https://gaveen.me/tags/vim/index.xml |
+| (e.g.,) | #[Open Source](https://gaveen.me/tags/open-source/) | https://gaveen.me/tags/open-source/index.xml |
 
-- Main feed: https://gaveen.me/index.xml
-- Sections:
-    - Blog posts feed: https://gaveen.me/posts/index.xml
-    - About section feed: https://gaveen.me/about/index.xml
-    - Facets section feed: https://gaveen.me/facets/index.xml
+The list of tags are non-exhaustive. If you have a particular tag you'd like to explore, you can use the following syntax to deduce the link and RSS feed of that particular tag.
 
-- Category examples:
-    - Tech category feed: https://gaveen.me/categories/tech/index.xml
-    - Update category feed: https://gaveen.me/categories/update/index.xml
-    - Opinion category feed: https://gaveen.me/categories/opinion/index.xml
-    - Prose category feed: https://gaveen.me/categories/prose/index.xml
-    - Poetry category feed: https://gaveen.me/categories/poetry/index.xml
-    - Musing category feed: https://gaveen.me/categories/musing/index.xml
-    - Remembering category feed: https://gaveen.me/categories/remembering/index.xml
-    - Personal category feed: https://gaveen.me/categories/personal/index.xml
-
-- Tag examples:
-    - #Vim feed: https://gaveen.me/tags/vim/index.xml
-    - #Open Source feed: https://gaveen.me/tags/open-source/index.xml
-
-## Tags and Categories
-
-You can also browse only sections of the site. Here are some examples.
-
-- Category examples:
-    - All categories: https://gaveen.me/categories/
-    - Tech category feed: https://gaveen.me/categories/tech/
-    - Update category feed: https://gaveen.me/categories/update/
-    - Opinion category feed: https://gaveen.me/categories/opinion/
-    - Prose category feed: https://gaveen.me/categories/prose/
-    - Poetry category feed: https://gaveen.me/categories/poetry/
-    - Musing category feed: https://gaveen.me/categories/musing/
-    - Remembering category feed: https://gaveen.me/categories/remembering/
-    - Personal category feed: https://gaveen.me/categories/personal/
-
-- Tag example:
-    - All tags: https://gaveen.me/tags/
-    - #Vim: https://gaveen.me/tags/vim/
-    - #Open Source: https://gaveen.me/tags/open-source/
+| Tag | Tag link syntax | Tag RSS feed syntax |
+| ---- | ---- | ---- |
+| Example | `https://gaveen.me/tags/example` | `https://gaveen.me/tags/example/index.xml` |
+| Another Example | `https://gaveen.me/tags/another-example` | `https://gaveen.me/tags/another-example/index.xml` |

@@ -4,14 +4,14 @@ date: "2024-01-26"
 author: 'Gaveen Prabhasara'
 categories:
   - Personal
+  - Prose
   - Update
 tags:
-  - Meta
+  - Blog Meta
   - Neurodivergent
   - Neurodiversity
   - Autism
   - ActuallyAutistic
-  - ADHD
   - Twitter
 draft: false
 ---

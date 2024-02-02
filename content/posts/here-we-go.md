@@ -4,9 +4,11 @@ date: "2019-01-01"
 author: 'Gaveen Prabhasara'
 categories:
   - Personal
+  - Prose
   - Update
 tags:
   - Meta
+  - Blog Meta
 draft: false
 ---
 

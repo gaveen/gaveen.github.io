@@ -3,10 +3,12 @@ title: Whatever happened to that book?
 date: "2019-04-14"
 author: 'Gaveen Prabhasara'
 categories:
+  - Prose
   - Personal
   - Update
 tags:
   - Writing
+  - Meta
   - Poetry
   - Book
   - Anime

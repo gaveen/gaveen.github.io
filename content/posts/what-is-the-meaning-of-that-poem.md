@@ -7,6 +7,7 @@ categories:
   - Prose
   - Opinion
 tags:
+  - Meta
   - Poetry
   - Meta Poetry
   - Writing

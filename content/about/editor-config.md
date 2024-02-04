@@ -13,7 +13,6 @@ tags:
   - Helix
   - Obsidian
 slug: 'my-editor-config'
-weight: 14
 draft: false
 ---
 

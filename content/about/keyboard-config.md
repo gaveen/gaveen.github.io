@@ -15,7 +15,6 @@ tags:
   - VIA
   - ID75
 slug: 'my-keyboard-config'
-weight: 13
 draft: false
 ---
 

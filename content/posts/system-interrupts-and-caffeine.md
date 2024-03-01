@@ -1,6 +1,6 @@
 ---
 title: System Interrupts and Caffeine
-date: "2024-03-02"
+date: "2024-03-01"
 author: 'Gaveen Prabhasara'
 categories:
   - Personal

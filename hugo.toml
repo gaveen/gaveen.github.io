@@ -3,7 +3,6 @@ languageCode = "en-us"
 title = "Gaveen Prabhasara"
 
 theme = "paper"
-paginate = 10
 
 [params]
   # color style
@@ -69,3 +68,9 @@ paginate = 10
   posts = "/:year/:month/:slug/"
   facets = "/facets/:slug/"
   about = "/about/:slug/"
+
+# Configure pagination  
+[pagination]
+  disableAliases = false
+  pagerSize = 10
+  path = 'page'
